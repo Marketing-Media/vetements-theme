@@ -35,7 +35,7 @@ prestashop.responsive.mobile = isMobile();
 
 function swapChildren(obj1, obj2) {
   const temp = obj2.children().detach();
-  obj2.empty().append(obj1.children().detach());
+  obj2.empty().append(obj1.children().detach()); 
   obj1.append(temp);
 }
 
