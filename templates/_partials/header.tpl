@@ -45,7 +45,7 @@
 
        <div class="row header-top__row">
 
-       <div class="col flex-grow-0 header-top__block header-top__block--menu-toggle d-block d-md-none">
+       <div class="col flex-grow-0 header-top__block header-top__block--menu-toggle d-block ">
           <a
             class="header-top__link"
             rel="nofollow"
