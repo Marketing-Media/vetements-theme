@@ -39,7 +39,7 @@
 .noUi-connect {
   width: 100%;
   height: 100%;
-  background: #66b0ff; }
+  background: #83d3e4; }
 
 .noUi-origin {
   width: 10%;
@@ -115,15 +115,15 @@
 .noUi-handle {
   position: absolute;
   cursor: default;
-  background: #007bff;
-  border: 1px solid #007bff;
+  background: #2FB5D2;
+  border: 1px solid #2FB5D2;
   border-radius: 50%;
   outline: none;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden; }
 
 .noUi-active {
-  background: #0062cc; }
+  background: #2592a9; }
 
 /* Disabled state;
   */
@@ -270,7 +270,7 @@
     background: #e9ecef; }
   .display-toggle__link.active {
     color: #fff;
-    background: #007bff; }
+    background: #2FB5D2; }
 
 .display-toggle__icon {
   font-size: inherit;

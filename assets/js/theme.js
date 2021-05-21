@@ -113,7 +113,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "ea95eb49c88fe7bbfacb";
+/******/ 	var hotCurrentHash = "d28277311d2138f843ab";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1018,7 +1018,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "http://host.local:3505/themes/vetements-theme/assets/";
+/******/ 	__webpack_require__.p = "http://149.56.203.166/:3505/themes/vetements-theme/assets/";
 /******/
 /******/ 	// on error function for async loading
 /******/ 	__webpack_require__.oe = function(err) { console.error(err); throw err; };
@@ -1047,7 +1047,7 @@
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1621610507191
+      // 1621612071316
       var cssReload = __webpack_require__("./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -16085,7 +16085,7 @@ module.exports = /*#__PURE__*/function (_BaseClient) {
 
 /***/ }),
 
-/***/ "./node_modules/webpack-dev-server/client/index.js?http://host.local:3505":
+/***/ "./node_modules/webpack-dev-server/client/index.js?http://149.56.203.166:3505":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16265,7 +16265,7 @@ var onSocketMessage = {
   }
 };
 socket(socketUrl, onSocketMessage);
-/* WEBPACK VAR INJECTION */}.call(this, "?http://host.local:3505"))
+/* WEBPACK VAR INJECTION */}.call(this, "?http://149.56.203.166:3505"))
 
 /***/ }),
 
@@ -16999,7 +16999,7 @@ module.exports.formatError = function(err) {
 /***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__("./node_modules/webpack-dev-server/client/index.js?http://host.local:3505");
+__webpack_require__("./node_modules/webpack-dev-server/client/index.js?http://149.56.203.166:3505");
 __webpack_require__("./node_modules/webpack/hot/dev-server.js");
 __webpack_require__("./js/theme.js");
 module.exports = __webpack_require__("./css/theme.scss");
