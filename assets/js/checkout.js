@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "http://host.local:3505/themes/vetements-theme/assets/";
+/******/ 	__webpack_require__.p = "http://149.56.203.166/:80/themes/vetements-theme/assets/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
