@@ -30,7 +30,7 @@ const isMobile = () => prestashop.responsive.current_width < prestashop.responsi
 prestashop.responsive = prestashop.responsive || {};
 
 prestashop.responsive.current_width = window.innerWidth;
-prestashop.responsive.min_width = 768;
+prestashop.responsive.min_width = 769;
 prestashop.responsive.mobile = isMobile();
 
 function swapChildren(obj1, obj2) {
