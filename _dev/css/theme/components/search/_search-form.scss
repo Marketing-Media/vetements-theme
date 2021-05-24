@@ -18,7 +18,7 @@
     line-height: $search-input-height;
     color: $gray-900;
     border-width: 1px;
-    border-radius: 99em;
+    
 
     &:focus {
       background: $gray-100;
@@ -34,7 +34,7 @@
     bottom: 0;
     padding: 0 map-get($spacers, 3);
     line-height: 1;
-    color: $primary;
+    color: $gray-600;
   }
 }
 

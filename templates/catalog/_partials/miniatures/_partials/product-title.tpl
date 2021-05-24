@@ -3,7 +3,7 @@
   {if $page.page_name == 'index'}
     {$headingTag = 'h3'}
   {/if}
-  <{$headingTag} class="h5 product-miniature__title mb-2">
+  <{$headingTag} class="h5 product-miniature__title mb-2 text-center">
       <a class="text-reset" href="{$product.url}">{$product.name}</a>
   </{$headingTag}>
 {/block}
