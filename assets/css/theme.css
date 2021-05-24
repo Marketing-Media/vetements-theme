@@ -8515,6 +8515,13 @@ label,
 .featured-products h3, .featured-products .h3, .brands h3, .brands .h3 {
   text-align: center; }
 
+.talk-to-expert {
+  grid-column: 1; }
+
+.product-tabs {
+  grid-column: 2;
+  grid-row: 1; }
+
 .product-miniature__quick-view {
   position: absolute;
   right: 10px;

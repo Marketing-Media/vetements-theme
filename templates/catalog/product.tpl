@@ -52,7 +52,7 @@
   <section id="main">
 
     <div class="row product-container">
-      <div class="col-md-5 mb-4">
+      <div class="col-md-6 mb-4">
         {block name='page_content_container'}
             {block name='page_content'}
               <div class="card">
@@ -70,7 +70,7 @@
             {/block}
         {/block}
         </div>
-        <div class="col-md-7 mb-4">
+        <div class="col-md-6 mb-4">
           {block name='page_header_container'}
             {block name='page_header'}
               <h1 class="h1">{block name='page_title'}{$product.name}{/block}</h1>
