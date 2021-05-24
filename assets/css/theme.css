@@ -95,6 +95,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
+  --strong-red: #FF151F;
   --primary: #2FB5D2;
   --secondary: #6c757d;
   --success: #28a745;
@@ -7077,6 +7078,10 @@ a.text-dark:hover, a.text-dark:focus {
 .swiper-button-next.swiper-button-gray-dark {
   --swiper-navigation-color: #343a40; }
 
+.swiper-button-prev.swiper-button-strong-red,
+.swiper-button-next.swiper-button-strong-red {
+  --swiper-navigation-color: #FF151F; }
+
 .swiper-button-lock {
   display: none; }
 
@@ -7238,6 +7243,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .swiper-pagination-gray-dark {
   --swiper-pagination-color: #343a40; }
+
+.swiper-pagination-strong-red {
+  --swiper-pagination-color: #FF151F; }
 
 .swiper-pagination-lock {
   display: none; }
@@ -7681,16 +7689,18 @@ label,
   padding-bottom: 10px;
   margin-top: 40px;
   background: #fff; }
+  .pre-footer-container .storeFront {
+    grid-area: "storeFront"; }
+    .pre-footer-container .storeFront h2 i, .pre-footer-container .storeFront h2 strong {
+      color: #FF151F; }
+  .pre-footer-container .storeInfo {
+    grid-area: "storeInfo"; }
 
 .footer-container {
   padding-top: 40px;
   padding-bottom: 10px;
   margin-top: 40px;
   background: #f8f9fa; }
-  .footer-container .storeFront {
-    grid-area: "storeFront"; }
-  .footer-container .storeInfo {
-    grid-area: "storeInfo"; }
 
 /* HEADER STYLES */
 .l-header {

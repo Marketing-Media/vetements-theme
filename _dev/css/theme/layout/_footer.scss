@@ -8,6 +8,19 @@
   padding-bottom: map-get($spacers, 2);
   margin-top: map-get($spacers, 5);
   background: $white;
+
+  .storeFront {
+    h2 {
+      i, strong {
+        color: $strong-red;
+      }
+    }
+    grid-area: "storeFront";
+
+  }
+  .storeInfo {
+    grid-area: "storeInfo";
+  }
 }
 
 .footer-container {
@@ -15,11 +28,6 @@
   padding-bottom: map-get($spacers, 2);
   margin-top: map-get($spacers, 5);
   background: $gray-100;
-  .storeFront {
-    grid-area: "storeFront";
-  }
-  .storeInfo {
-    grid-area: "storeInfo";
-  }
+  
 }
 
