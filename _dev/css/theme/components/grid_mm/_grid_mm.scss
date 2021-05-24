@@ -6,7 +6,7 @@
     .pre-footer-container &{
         @include media-breakpoint-up(md) {
             grid-template-areas: "storeInfo storeFront";
-            
+            grid-template-columns: 1fr auto;
           }
     }
 }

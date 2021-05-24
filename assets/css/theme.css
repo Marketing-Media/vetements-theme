@@ -7687,6 +7687,10 @@ label,
   padding-bottom: 10px;
   margin-top: 40px;
   background: #f8f9fa; }
+  .footer-container .storeFront {
+    grid-area: "storeFront"; }
+  .footer-container .storeInfo {
+    grid-area: "storeInfo"; }
 
 /* HEADER STYLES */
 .l-header {
@@ -8480,7 +8484,8 @@ img.lazyload:not(.loaded) {
   align-items: center; }
   @media (min-width: 768px) {
     .pre-footer-container .grid_mm {
-      grid-template-areas: "storeInfo storeFront"; } }
+      grid-template-areas: "storeInfo storeFront";
+      grid-template-columns: 1fr auto; } }
 
 
 /*# sourceMappingURL=theme.css.map*/
