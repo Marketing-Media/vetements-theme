@@ -143,7 +143,10 @@
         </div>
       </div>
     </div>
-    {include file="catalog/_partials/product-tabs.tpl"}
+    <div class="grid_mm">
+      {include file="catalog/_partials/talk-to-expert.tpl"}
+      {include file="catalog/_partials/product-tabs.tpl"}
+    </div>
 
     {block name='product_footer'}
       {hook h='displayFooterProduct' product=$product category=$category}
