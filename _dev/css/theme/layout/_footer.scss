@@ -10,16 +10,26 @@
   background: $white;
 
   .storeFront {
-    h2 {
-      i, strong {
-        color: $strong-red;
-      }
-    }
     grid-area: storeFront;
 
   }
   .storeInfo {
     grid-area: storeInfo;
+    h2 {
+      font-weight:bold;
+      i, strong {
+        color: $strong-red;
+      }
+    }
+  }
+  > div {
+    
+    @include media-breakpoint-up(sm) {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:15px;
+  }
+
   }
 }
 

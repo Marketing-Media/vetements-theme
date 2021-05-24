@@ -7691,10 +7691,17 @@ label,
   background: #fff; }
   .pre-footer-container .storeFront {
     grid-area: storeFront; }
-    .pre-footer-container .storeFront h2 i, .pre-footer-container .storeFront h2 strong {
-      color: #FF151F; }
   .pre-footer-container .storeInfo {
     grid-area: storeInfo; }
+    .pre-footer-container .storeInfo h2 {
+      font-weight: bold; }
+      .pre-footer-container .storeInfo h2 i, .pre-footer-container .storeInfo h2 strong {
+        color: #FF151F; }
+  @media (min-width: 576px) {
+    .pre-footer-container > div {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 15px; } }
 
 .footer-container {
   padding-top: 40px;
@@ -8492,7 +8499,7 @@ img.lazyload:not(.loaded) {
   grid-template-columns: 1fr;
   justify-content: center;
   align-items: center; }
-  @media (min-width: 768px) {
+  @media (min-width: 576px) {
     .pre-footer-container .grid_mm {
       grid-template-areas: "storeInfo storeFront";
       grid-template-columns: 1fr auto; } }

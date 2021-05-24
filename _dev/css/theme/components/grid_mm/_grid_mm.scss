@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     .pre-footer-container &{
-        @include media-breakpoint-up(md) {
+        @include media-breakpoint-up(sm) {
             grid-template-areas: "storeInfo storeFront";
             grid-template-columns: 1fr auto;
           }
