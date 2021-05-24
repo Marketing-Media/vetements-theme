@@ -27,7 +27,48 @@
       color:$gray-600;
       margin-bottom: map-get($spacers, 3);
     }
-  } 
+  }
+  li {
+    &.card:hover {
+      background: $gray-300;
+    }
+    a{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:15px 10px;
+    &:hover{
+     text-decoration: none;
+    }
+    i {
+      margin-bottom: 5px;
+      font-size: rem-calc(24px);
+    }
+    .where {
+      color:$gray-600;
+      font-size: rem-calc(12px);
+    }
+    .strong {
+      font-weight: bold;
+        color:$black;
+        font-size: rem-calc(16px);
+      
+    }
+    @include media-breakpoint-down(md) {
+      .where {
+        color:$gray-600;
+        font-size: rem-calc(12px);
+      }
+      .strong {
+        font-weight: bold;
+          color:$black;
+          font-size: rem-calc(18px);
+        
+        }
+      }
+    }
+  }
   .notavailable {
     display:grid;
     padding: map-get($spacers, 3);
