@@ -8498,7 +8498,8 @@ img.lazyload:not(.loaded) {
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  grid-template-areas: "storeFront" "storeInfo"; }
   @media (min-width: 992px) {
     .pre-footer-container .grid_mm {
       grid-template-areas: "storeInfo storeFront";
