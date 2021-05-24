@@ -1,6 +1,6 @@
 <div class="talk_to_expert">
     <h2>{l s='TALK TO AN EXPERT' tags=['<strong>']}</h2>
-    <span class="small">{l s='We are here to help you' sprintf=[1] tags=['<strong>']}</span>
+    <div class="small">{l s='We are here to help you' sprintf=[1] tags=['<strong>']}</div>
     <div class="contact_options">
         <ul class="grid_mm">
             <li class="card">

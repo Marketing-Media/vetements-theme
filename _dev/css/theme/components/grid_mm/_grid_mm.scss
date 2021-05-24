@@ -42,11 +42,61 @@
     @include media-breakpoint-up(md) {
       
       grid-template-columns: 1fr 1fr;
-      grid-gap: 30px;
+      grid-gap: 15px;
+      
     }
   }
   .contact_options &{
     grid-template-columns: repeat(3, 1fr);
+      @include media-breakpoint-down(md) {
+      grid-template-columns: repeat(1, 1fr);
 
+      }
+
+    li a{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding:15px 10px;
+      i {
+        margin-bottom: 5px;
+        font-size: rem-calc(24px);
+      }
+      .where {
+        color:$gray-600;
+        font-size: rem-calc(12px);
+      }
+      .strong {
+        font-weight: bold;
+          color:$black;
+          font-size: rem-calc(16px);
+        
+      }
+      @include media-breakpoint-down(md) {
+        .where {
+          color:$gray-600;
+          font-size: rem-calc(12px);
+        }
+        .strong {
+          font-weight: bold;
+            color:$black;
+            font-size: rem-calc(18px);
+          
+        }
+      }
+    }
+  }
+}
+@include media-breakpoint-up(md) {
+      
+
+  .talk-to-expert {
+    grid-column: 1;
+  }
+  .product-tabs {
+    grid-column: 2;
+    grid-row: 1;
+  
   }
 }

@@ -15,11 +15,30 @@
   }
 }
 
-.talk-to-expert {
-  grid-column: 1;
-}
-.product-tabs {
-  grid-column: 2;
-  grid-row: 1;
+.talk_to_expert {
+  h2 {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: rem-calc(28px);
 
+    + .small {
+      text-align: center;
+      font-size: rem-calc(18px);
+      color:$gray-600;
+      margin-bottom: map-get($spacers, 3);
+    }
+  } 
+  .notavailable {
+    display:grid;
+    padding: map-get($spacers, 3);
+    grid-template-columns: auto 40px;
+    .strong {
+      font-size: rem-calc(20px);
+      font-weight: bold;
+    }
+    .simple {
+      font-size: rem-calc(15px);
+      color:$gray-600;
+    }
+  }
 }
