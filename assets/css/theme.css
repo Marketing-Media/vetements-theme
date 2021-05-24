@@ -587,7 +587,7 @@ pre {
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 1140px; } }
+    max-width: 1170px; } }
 
 .row {
   display: flex;
@@ -7711,7 +7711,7 @@ label,
 
 /* HEADER STYLES */
 .l-header {
-  margin: 0 0 20px;
+  margin: 0 0;
   border-bottom: 1px solid #dee2e6; }
 
 .header-top {
@@ -7770,7 +7770,7 @@ label,
 
 #wrapper {
   background: #f1f1f1;
-  padding-top: 10px; }
+  padding-top: 20px; }
 
 .product-miniature__quick-view {
   position: absolute;

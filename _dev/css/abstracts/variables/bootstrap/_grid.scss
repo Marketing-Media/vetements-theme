@@ -7,6 +7,13 @@
 //     xl: 1200px
 //   ) !default;
 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1170px
+);
+
 $grid-columns:                12;
 $grid-gutter-width:           rem-calc(20px);
 $grid-row-columns:            6;
