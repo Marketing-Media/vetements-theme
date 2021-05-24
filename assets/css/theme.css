@@ -7768,6 +7768,10 @@ label,
   flex-direction: column;
   min-height: 100vh; }
 
+.wrapper {
+  background: #f1f1f1;
+  padding-top: 10px; }
+
 .product-miniature__quick-view {
   position: absolute;
   right: 10px;
