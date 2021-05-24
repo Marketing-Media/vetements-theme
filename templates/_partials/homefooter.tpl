@@ -19,4 +19,4 @@
             {l s='See our brands'} { url entity='manufacturer'}
         </a>
     </div>
-</div>
+</div> 
