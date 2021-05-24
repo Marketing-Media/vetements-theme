@@ -54,7 +54,7 @@
         {if $contact_infos.email && $display_email}
 
         <li><i class="fal fa-envelope-open-text"></i> {mailto address=$contact_infos.email
-          encode="javascript"|replace:"contact@vetementspatrick.com":"Contact"}
+          encode="javascript" text="Contact"}
         
         </li>
         {/if}
