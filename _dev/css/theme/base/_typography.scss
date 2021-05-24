@@ -1,6 +1,10 @@
 
 label,
 .label {
-  color: $gray-900;
+  color: $black;
+  font-weight: bold;
+  + span {
+    font-size: $gray-600;
+  }
 }
 
