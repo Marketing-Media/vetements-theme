@@ -34,7 +34,7 @@
     {/if}
   >
     <div class="header-top__icon-container">
-      <span class="header-top__icon material-icons">person</span>
+      <i class="fas fa-user header-top__icon"></i>
     </div>
   </a>
 </div>

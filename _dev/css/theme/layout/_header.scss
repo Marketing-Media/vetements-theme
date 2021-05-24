@@ -44,16 +44,16 @@
 
   &__icon {
     display: block;
-    font-size: rem-calc(26px);
+    font-size: rem-calc(22px);
     @include media-breakpoint-up(sm) {
-      font-size: rem-calc(32px);
+      font-size: rem-calc(24px);
     }
   }
 
   &__badge {
     position: absolute;
-    top: -0.5em;
-    right: -0.2em;
+    top: -1.1em;
+    right: -1em;
     width: 2em;
     height: 2em;
     font-size: rem-calc(8px);

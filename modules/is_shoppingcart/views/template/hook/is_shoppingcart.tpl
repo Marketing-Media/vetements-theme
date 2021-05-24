@@ -20,7 +20,7 @@
   <div class="blockcart cart-preview dropdown" data-refresh-url="{$refresh_url}">
     <a href="#" role="button" id="cartDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="header-top__link d-lg-block d-none">
       <div class="header-top__icon-container">
-        <span class="header-top__icon material-icons">shopping_basket</span>
+       <i class="fas fa-shopping-cart header-top__icon"></i>
         <span class="header-top__badge {if $cart.products_count > 9}header-top__badge--smaller{/if}">
           {$cart.products_count}
         </span>
@@ -28,7 +28,7 @@
     </a>
     <a href="{$cart_url}" class="d-flex d-lg-none header-top__link">
       <div class="header-top__icon-container">
-        <span class="header-top__icon material-icons">shopping_basket</span>
+        <i class="fas fa-shopping-cart header-top__icon"></i>
         <span class="header-top__badge {if $cart.products_count > 9}header-top__badge--smaller{/if}">
           {$cart.products_count}
         </span>

@@ -53,7 +53,7 @@
               disabled
             {/if}
           >
-            {l s='Add to cart' d='Shop.Theme.Actions'}
+            <i class="fas fa-shopping-cart"></i> {l s='Add to cart' d='Shop.Theme.Actions'}
           </button>
         </div>
 
