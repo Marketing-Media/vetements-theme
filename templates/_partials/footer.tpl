@@ -35,7 +35,7 @@
             <div class="address">
               <h4>{l s='Vêtements Patrick' sprintf=[1] tags=['<strong>']}</h4>
               <p>{l s='6631 Avenue Papineau[1]Montreal, Québec, Canada[1]H2G 2X3' sprintf=[1] tags=['<br>']}</p>
-              <div class="btn btn-secondary"><a href="#">{l s='View map'}</a></div>
+              <div ><a href="#" class="btn btn-secondary">{l s='View map'}</a></div>
             </div>
             <div class="hours">
               <h4>{l s='Opening Hours' sprintf=[1] tags=['<strong>']}</h4>

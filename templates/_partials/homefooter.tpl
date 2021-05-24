@@ -27,14 +27,14 @@
         <ul class="grid_mm ">
            <li>
                <div>
-                   <span class="ico"><img src="{$urls.img_url}icon1.svg" alt=""></span>
+                   <span class="ico"><img src="{$urls.img_url}svg/icon1.svg" height="100px" alt=""></span>
                    <div class="strong">{l s='FREE SHIPPING*'} </div>
                    <span class="simple">{l s='For order over [1]60$[/1] (Quebec only)' sprintf=[1] tags=['<strong>']}  </span>
                </div>
            </li>
            <li>
                <div>
-                   <span class="ico"><img src="{$urls.img_url}icon2.svg" alt=""></span>
+                   <span class="ico"><img src="{$urls.img_url}svg/icon2.svg" height="100px" alt=""></span>
                    <div class="strong">{l s='IN-STORE PICKUP'} </div>
                    <span class="simple">{l s='To avoid shipping cost available' } </span>
                </div>
