@@ -8474,7 +8474,13 @@ img.lazyload:not(.loaded) {
   background: #e9ecef; }
 
 .grid_mm {
-  display: grid; }
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center; }
+  @media (min-width: 768px) {
+    .pre-footer-container .grid_mm {
+      grid-template-areas: "storeInfo storeFront"; } }
 
 
 /*# sourceMappingURL=theme.css.map*/

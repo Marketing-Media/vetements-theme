@@ -1,3 +1,12 @@
 .grid_mm {
     display:grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    .pre-footer-container &{
+        @include media-breakpoint-up(md) {
+            grid-template-areas: "storeInfo storeFront";
+            
+          }
+    }
 }
