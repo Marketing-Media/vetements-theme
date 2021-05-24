@@ -33,5 +33,10 @@
             {$HOOK_HOME nofilter}
           {/block}
         {/block}
+        {block name='page_content_footer'}
+   
+	{include file="$tpl_dir./homefooter.tpl"}
+	
+        {/block}
       </section>
     {/block}
