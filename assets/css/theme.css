@@ -7690,11 +7690,11 @@ label,
   margin-top: 40px;
   background: #fff; }
   .pre-footer-container .storeFront {
-    grid-area: "storeFront"; }
+    grid-area: storeFront; }
     .pre-footer-container .storeFront h2 i, .pre-footer-container .storeFront h2 strong {
       color: #FF151F; }
   .pre-footer-container .storeInfo {
-    grid-area: "storeInfo"; }
+    grid-area: storeInfo; }
 
 .footer-container {
   padding-top: 40px;
