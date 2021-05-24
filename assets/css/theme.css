@@ -9246,7 +9246,6 @@ img.lazyload:not(.loaded) {
   align-items: center;
   justify-content: center;
   grid-template-columns: 1fr;
-  grid-template-areas: "storeFront" "storeInfo";
   grid-gap: 15px; }
   .grid_mm img {
     max-width: 100%; }
@@ -9259,7 +9258,8 @@ img.lazyload:not(.loaded) {
     .lastBanners .grid_mm {
       grid-template-columns: 1fr 1fr; } }
   .pre-footer-container .grid_mm {
-    grid-gap: 30px; }
+    grid-gap: 30px;
+    grid-template-areas: "storeFront" "storeInfo"; }
     @media (min-width: 768px) {
       .pre-footer-container .grid_mm {
         grid-template-areas: "storeInfo storeFront";
@@ -9270,6 +9270,12 @@ img.lazyload:not(.loaded) {
         grid-template-areas: "storeInfo storeFront";
         grid-template-columns: auto 1fr;
         grid-gap: 60px; } }
+  .grid_mm .product-infos {
+    grid-template-columns: 1fr; }
+    @media (min-width: 768px) {
+      .grid_mm .product-infos {
+        grid-template-columns: 50% 50%;
+        grid-gap: 30px; } }
 
 
 /*# sourceMappingURL=theme.css.map*/

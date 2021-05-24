@@ -145,8 +145,9 @@
     </div>
     <div class="product_infos">
       <div class="grid_mm">
+      {include file="catalog/_partials/product-tabs.tpl"}
         {include file="catalog/_partials/talk-to-expert.tpl"}
-        {include file="catalog/_partials/product-tabs.tpl"}
+        
       </div>
     </div>
 
