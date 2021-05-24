@@ -7747,11 +7747,12 @@ label,
       .pre-footer-container .storeInfo h2 i,
       .pre-footer-container .storeInfo h2 strong {
         color: #FF151F; }
-    @media (min-width: 576px) {
-      .pre-footer-container .storeInfo > div {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 15px; } }
+    .pre-footer-container .storeInfo > div {
+      display: grid;
+      grid-gap: 30px; }
+      @media (min-width: 576px) {
+        .pre-footer-container .storeInfo > div {
+          grid-template-columns: 1fr 1fr; } }
 
 .footer-container {
   padding-top: 40px;

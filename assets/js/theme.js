@@ -113,7 +113,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "b17700c10d5a9de1519d";
+/******/ 	var hotCurrentHash = "b2b48c3e58f93542375c";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1018,7 +1018,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "http://vetement.test/:3505/themes/vetements-theme/assets/";
+/******/ 	__webpack_require__.p = "http://vetement.test:3505/themes/vetements-theme/assets/";
 /******/
 /******/ 	// on error function for async loading
 /******/ 	__webpack_require__.oe = function(err) { console.error(err); throw err; };
@@ -1047,7 +1047,7 @@
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1621838267279
+      // 1621838605948
       var cssReload = __webpack_require__("./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -1705,7 +1705,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(() => {
     DOMEventsPreventDefault: true,
     files: () => [
       __webpack_require__.e(/* import() */ 3).then(__webpack_require__.bind(null, "./node_modules/bootstrap/js/src/modal.js")),
-      __webpack_require__.e(/* import() */ 6).then(__webpack_require__.t.bind(null, "./css/dynamic/modal/_index.scss", 7))
+      __webpack_require__.e(/* import() */ 7).then(__webpack_require__.t.bind(null, "./css/dynamic/modal/_index.scss", 7))
     ]
   });
   const importDropdown = new _utils_DynamicImportHandler__WEBPACK_IMPORTED_MODULE_1__["default"]({
@@ -1715,7 +1715,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(() => {
     DOMEventsPreventDefault: true,
     files: () => [
       Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(10)]).then(__webpack_require__.bind(null, "./node_modules/bootstrap/js/src/dropdown.js")),
-      __webpack_require__.e(/* import() */ 7).then(__webpack_require__.t.bind(null, "./css/dynamic/dropdown/_index.scss", 7))
+      __webpack_require__.e(/* import() */ 6).then(__webpack_require__.t.bind(null, "./css/dynamic/dropdown/_index.scss", 7))
     ]
   });
   const importCollapse = new _utils_DynamicImportHandler__WEBPACK_IMPORTED_MODULE_1__["default"]({
@@ -2303,7 +2303,7 @@ function accLinksTriggerActive() {
     }
   });
 }
-if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }
+if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }
 
 /***/ }),
 
