@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "e2426aa21c657746a616";
+/******/ 	var hotCurrentHash = "ae5eae425ae53ce1c659";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -955,7 +955,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).on("click", ".js-checkou
   jquery__WEBPACK_IMPORTED_MODULE_0___default()(`#${stepIdentifier}`).addClass("-current");
   jquery__WEBPACK_IMPORTED_MODULE_0___default()(`#content-${stepIdentifier}`).collapse("show").scrollTop();
 });
-if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }
+if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }
 
 /***/ }),
 

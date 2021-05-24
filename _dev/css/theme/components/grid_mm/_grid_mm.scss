@@ -35,7 +35,7 @@
       grid-gap: 60px;
     }
   }
-  .product-infos {
+  .product-infos &{
     grid-template-columns: 1fr;
     
     @include media-breakpoint-up(md) {
