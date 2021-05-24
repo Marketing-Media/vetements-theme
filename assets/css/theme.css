@@ -9270,10 +9270,10 @@ img.lazyload:not(.loaded) {
         grid-template-areas: "storeInfo storeFront";
         grid-template-columns: auto 1fr;
         grid-gap: 60px; } }
-  .product-infos .grid_mm {
+  .product_infos .grid_mm {
     grid-template-columns: 1fr; }
     @media (min-width: 768px) {
-      .product-infos .grid_mm {
+      .product_infos .grid_mm {
         grid-template-columns: 50% 50%;
         grid-gap: 30px; } }
 

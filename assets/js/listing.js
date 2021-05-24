@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "ae5eae425ae53ce1c659";
+/******/ 	var hotCurrentHash = "fd51cbed79e83c4a5baf";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1164,7 +1164,7 @@ function updateProductListDOM(data) {
   prestashop__WEBPACK_IMPORTED_MODULE_1___default.a.customSelect.init();
   prestashop__WEBPACK_IMPORTED_MODULE_1___default.a.emit("updatedProductList", data);
 }
-if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }
+if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }
 
 /***/ }),
 
