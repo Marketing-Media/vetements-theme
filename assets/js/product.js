@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "a3ab3f6d35032c5ef3e0";
+/******/ 	var hotCurrentHash = "738fc8aed48b3b87eb59";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -898,7 +898,7 @@ function activateFirstProductTab() {
     }
   });
 }
-if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }
+if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }
 
 /***/ }),
 

@@ -8473,5 +8473,8 @@ label,
 img.lazyload:not(.loaded) {
   background: #e9ecef; }
 
+.grid_mm {
+  display: grid; }
+
 
 /*# sourceMappingURL=theme.css.map*/
