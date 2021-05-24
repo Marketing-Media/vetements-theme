@@ -21,14 +21,15 @@
         color: $strong-red;
       }
     }
-  }
-  > div {
+    > div {
     
-    @include media-breakpoint-up(sm) {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:15px;
+      @include media-breakpoint-up(sm) {
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap:15px;
+    }
   }
+  
 
   }
 }

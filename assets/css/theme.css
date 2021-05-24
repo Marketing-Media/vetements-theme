@@ -7697,11 +7697,11 @@ label,
       font-weight: bold; }
       .pre-footer-container .storeInfo h2 i, .pre-footer-container .storeInfo h2 strong {
         color: #FF151F; }
-  @media (min-width: 576px) {
-    .pre-footer-container > div {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 15px; } }
+    @media (min-width: 576px) {
+      .pre-footer-container .storeInfo > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px; } }
 
 .footer-container {
   padding-top: 40px;
