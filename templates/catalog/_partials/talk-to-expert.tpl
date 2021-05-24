@@ -12,14 +12,14 @@
             </li>
             <li class="card">
                 <a href="#">
-                    <i class="fas fa-phone"></i>
+                    <i class="fas fa-map-marker-alt"></i>
                     <span class="where">{l s='SHOP' tags=['<strong>']}</span>
                     <span class="strong">{l s='IN STORE' tags=['<strong>']}</span>
                 </a>
             </li>
             <li class="card">
                 <a href="#">
-                    <i class="fas fa-phone"></i>
+                    <i class="fab fa-facebook-messenger"></i>
                     <span class="where">{l s='CHAT' tags=['<strong>']}</span>
                     <span class="strong">{l s='ONLINE' tags=['<strong>']}</span>
                 </a>

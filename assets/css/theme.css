@@ -87,7 +87,7 @@
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
-  --orange: #fd7e14;
+  --orange: #f39d72;
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
@@ -7723,7 +7723,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .swiper-button-prev.swiper-button-orange,
 .swiper-button-next.swiper-button-orange {
-  --swiper-navigation-color: #fd7e14; }
+  --swiper-navigation-color: #f39d72; }
 
 .swiper-button-prev.swiper-button-yellow,
 .swiper-button-next.swiper-button-yellow {
@@ -7896,7 +7896,7 @@ a.text-dark:hover, a.text-dark:focus {
   --swiper-pagination-color: #dc3545; }
 
 .swiper-pagination-orange {
-  --swiper-pagination-color: #fd7e14; }
+  --swiper-pagination-color: #f39d72; }
 
 .swiper-pagination-yellow {
   --swiper-pagination-color: #ffc107; }
@@ -8579,7 +8579,7 @@ label,
       z-index: 1;
       margin-top: 0; }
     .product-flags__flag--discount-percentage, .product-flags__flag--discount-amount, .product-flags__flag--discount {
-      background-color: #fd7e14; }
+      background-color: #f39d72; }
     .product-flags__flag--on-sale {
       order: -1;
       width: 100%;
@@ -9277,11 +9277,13 @@ img.lazyload:not(.loaded) {
         grid-template-areas: "storeInfo storeFront";
         grid-template-columns: auto 1fr;
         grid-gap: 60px; } }
+  .contact_options .grid_mm {
+    grid-template-columns: repeat(3, 1fr); }
   .product_infos .grid_mm {
     grid-template-columns: 1fr; }
     @media (min-width: 768px) {
       .product_infos .grid_mm {
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 30px; } }
 
 

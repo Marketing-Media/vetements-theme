@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[6],{
+webpackHotUpdate(6,{
 
 /***/ "./css/dynamic/dropdown/_index.scss":
 /***/ (function(module, exports, __webpack_require__) {
@@ -14,5 +14,5 @@
 
 /***/ })
 
-}]);
-//# sourceMappingURL=6.js.map
+})
+//# sourceMappingURL=6.ff38cac7561492d6310a.hot-update.js.map
