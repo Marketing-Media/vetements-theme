@@ -10,7 +10,10 @@
   line-height: inherit !important;
   /* stylelint-enable */
 }
-
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  text-transform: uppercase;
+}
 .font-sm {
   @include font-size($font-size-sm);
 }

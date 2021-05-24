@@ -9,3 +9,8 @@
   padding-top: map-get($spacers, 3);
   background: #f1f1f1;
 }
+.featured-products, .brands {
+  h3, .h3 {
+    text-align: center;
+  }
+}

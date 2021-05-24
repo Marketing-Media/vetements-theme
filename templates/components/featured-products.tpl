@@ -4,7 +4,7 @@
     {block name='featured_products_header'}
       <div class="featured-products__header d-flex align-items-center mb-3">
         {block name='featured_products_title' hide}
-          <p class="h1 featured-products__title m-0">
+          <p class="h3 featured-products__title m-0">
             {$smarty.block.child}
           </p>
         {/block}

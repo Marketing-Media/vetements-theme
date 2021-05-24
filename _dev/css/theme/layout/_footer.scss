@@ -4,11 +4,12 @@
   margin-top: auto;
 }
 .brands {
-
+  margin-bottom: map-get($spacers, 8);
+  margin-top: map-get($spacers, 8);
 }
 .lastBanners {
-  margin-bottom: map-get($spacers, 6);
-  margin-top: map-get($spacers, 6);
+  margin-bottom: map-get($spacers, 8);
+  margin-top: map-get($spacers, 8);
   li {
     display: flex;
     align-items: center;
@@ -107,7 +108,8 @@
 
     h2 {
       font-weight: bold;
-
+      margin-bottom: map-get($spacers, 6);
+     
       i,
       strong {
         color: $strong-red;
@@ -117,6 +119,15 @@
     > div {
       display: grid;
       grid-gap: 30px;
+      p {
+        color:$gray-600;
+      }
+      strong {
+        color:$black;
+      }
+      .btn {
+        color:$gray-600;
+      }
       @include media-breakpoint-up(sm) {
         
         grid-template-columns: 1fr 1fr;

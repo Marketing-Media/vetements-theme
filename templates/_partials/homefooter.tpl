@@ -1,7 +1,7 @@
 
 <div class="brands">
     <div class="container">
-        <h2 class="subline">{l s="Brands"}</h2>
+        <h3 class="subline">{l s="Popular Brands"}</h3>
         <ul class="grid_mm ">
             <li><a href="{$link->getManufacturerLink(1)}"><img src="{$urls.img_url}brand1.png" alt=""></a></li>
             <li><a href="{$link->getManufacturerLink(1)}"><img src="{$urls.img_url}brand2.png" alt=""></a></li>
@@ -15,9 +15,11 @@
             <li><a href="{$link->getManufacturerLink(1)}"><img src="{$urls.img_url}brand10.png" alt=""></a></li>
 
         </ul>
-        <a href="{url entity='manufacturer'}" class="btn btn-secondary">
-            {l s='See our brands'} 
-        </a>
+        <div class="featured-products__footer mt-4 text-right">
+            <a href="{url entity='manufacturer'}" class="btn btn-secondary">
+                {l s='See our brands'}
+            </a>
+        </div>
     </div>
 </div>
 
