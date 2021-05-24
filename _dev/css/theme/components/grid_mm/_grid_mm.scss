@@ -35,10 +35,7 @@
       grid-gap: 60px;
     }
   }
-  .contact_options &{
-    grid-template-columns: repeat(3, 1fr);
-
-  }
+  
   .product_infos &{
     grid-template-columns: 1fr;
     
@@ -47,5 +44,9 @@
       grid-template-columns: 1fr 1fr;
       grid-gap: 30px;
     }
+  }
+  .contact_options &{
+    grid-template-columns: repeat(3, 1fr);
+
   }
 }

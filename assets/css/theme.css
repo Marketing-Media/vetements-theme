@@ -9277,14 +9277,14 @@ img.lazyload:not(.loaded) {
         grid-template-areas: "storeInfo storeFront";
         grid-template-columns: auto 1fr;
         grid-gap: 60px; } }
-  .contact_options .grid_mm {
-    grid-template-columns: repeat(3, 1fr); }
   .product_infos .grid_mm {
     grid-template-columns: 1fr; }
     @media (min-width: 768px) {
       .product_infos .grid_mm {
         grid-template-columns: 1fr 1fr;
         grid-gap: 30px; } }
+  .contact_options .grid_mm {
+    grid-template-columns: repeat(3, 1fr); }
 
 
 /*# sourceMappingURL=theme.css.map*/
