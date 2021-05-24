@@ -22,14 +22,14 @@
 </div>
 
 <div class="lastBanners">
-    <div class="container">
+    <div class="container"> 
         
         <ul class="grid_mm ">
            <li>
                <div>
                    <span class="ico"><img src="{$urls.img_url}SVG/icon1.svg" height="100px" alt=""></span>
                    <div class="strong">{l s='FREE SHIPPING*'} </div>
-                   <span class="simple">{l s='For order over [1]60$[/1] (Quebec only)' sprintf=[1] tags=['<strong>']}  </span>
+                   <span class="simple">{l s='For order over [1]60$[/1] [2](Quebec only)[/2]' tags=['<strong>', '<span>']}  </span>
                </div>
            </li>
            <li>

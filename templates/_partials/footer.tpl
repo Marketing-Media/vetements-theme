@@ -40,25 +40,27 @@
             <div class="hours">
               <h4>{l s='Opening Hours' sprintf=[1] tags=['<strong>']}</h4>
               <p>
-                {l s='[1]Monday to Friday:[/1] 10:00 am – 6:00 pm[2]
+                {l s='[1]Monday to Friday:[/1] 11:00 am – 6:00 pm[2]
                       [1]Saturday:[/1] 9:00 am – 5:00 pm[2]
-                      [1]Sunday:[/1] Closed' sprintf=[1] tags=['<strong>','<br>']}
+                      [1]Sunday:[/1] Closed' tags=['<strong>','<br>']}
               </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </div> 
 
 
-  <div class="container">
-    <div class="row">
-      {block name='hook_footer_before'}
-      {hook h='displayFooterBefore'}
-      {/block}
+  <div class="newsletter-container">
+    <div class="container">
+      <div class="row">
+        {block name='hook_footer_before'}
+        {hook h='displayFooterBefore'}
+        {/block}
+      </div>
     </div>
-  </div>
+  </div> 
   <div class="footer-container">
     <div class="container">
       <div class="row">

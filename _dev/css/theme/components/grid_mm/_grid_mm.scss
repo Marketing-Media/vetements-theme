@@ -1,21 +1,36 @@
 .grid_mm {
-    display:grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-    grid-template-areas: "storeFront" "storeInfo";
-    grid-gap:15px;
-    .pre-footer-container &{
-        grid-gap:30px;
-        @include media-breakpoint-up(md) {
-            grid-template-areas: "storeInfo storeFront";
-            grid-template-columns: 1fr auto;
-            grid-gap:30px;
-          }
-        @include media-breakpoint-up(lg) {
-            grid-template-areas: "storeInfo storeFront";
-            grid-template-columns: 1fr auto;
-            grid-gap:60px;
-          }
+  img {
+    max-width: 100%;
+  }
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  grid-template-areas: "storeFront" "storeInfo";
+  grid-gap: 15px;
+  .brands & {
+    grid-template-columns: repeat(2,1fr);
+    @include media-breakpoint-up(md) {
+      grid-template-columns: repeat(5,1fr);
     }
+  }
+  .lastBanners &{
+    @include media-breakpoint-up(md) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .pre-footer-container &{
+    grid-gap: 30px;
+    @include media-breakpoint-up(md) {
+      grid-template-areas: "storeInfo storeFront";
+      grid-template-columns: auto 1fr;
+      grid-gap: 30px;
+    }
+    @include media-breakpoint-up(lg) {
+      grid-template-areas: "storeInfo storeFront";
+      grid-template-columns: auto 1fr;
+      grid-gap: 60px;
+    }
+  }
 }
