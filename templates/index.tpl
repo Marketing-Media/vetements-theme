@@ -35,7 +35,7 @@
         {/block}
         {block name='page_content_footer'}
    
-	{include file="$tpl_dir./homefooter.tpl"}
+	{include file='_partials/homefooter.tpl'}
 	
         {/block}
       </section>
