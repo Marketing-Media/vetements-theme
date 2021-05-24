@@ -22,6 +22,21 @@
  * @copyright Since 2007 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
+ 
+<div class="pre- footer-container">
+  <div class="container">
+      <div class="grid_mm">
+        <div class="storeFront"><img src="{$urls.img_url}storefront.jpg" alt=""></div>
+        <div class="storeInfo">
+          <h2>
+           <i class="fal fa-map-marker-alt"></i> {l s='SHOP IN [1]STORE[/1]' sprintf=[1] tags=['<strong>']}
+          </h2>
+        </div>
+      </div>
+  </div>
+</div>
+
+
 <div class="container">
   <div class="row">
     {block name='hook_footer_before'}

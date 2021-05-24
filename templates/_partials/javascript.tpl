@@ -44,3 +44,5 @@
     {/foreach}
   </script>
 {/if}
+
+<script src="https://kit.fontawesome.com/a865c76f9a.js" crossorigin="anonymous"></script>
