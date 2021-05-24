@@ -8499,7 +8499,7 @@ img.lazyload:not(.loaded) {
   grid-template-columns: 1fr;
   justify-content: center;
   align-items: center; }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .pre-footer-container .grid_mm {
       grid-template-areas: "storeInfo storeFront";
       grid-template-columns: 1fr auto; } }

@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "600956c7b113bafb2b95";
+/******/ 	var hotCurrentHash = "2755b7e45cc2d0360d46";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -864,7 +864,7 @@
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1621831770244
+      // 1621832253767
       var cssReload = __webpack_require__("./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
@@ -1164,7 +1164,7 @@ function updateProductListDOM(data) {
   prestashop__WEBPACK_IMPORTED_MODULE_1___default.a.customSelect.init();
   prestashop__WEBPACK_IMPORTED_MODULE_1___default.a.emit("updatedProductList", data);
 }
-if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }
+if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }
 
 /***/ }),
 
