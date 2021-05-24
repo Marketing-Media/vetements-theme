@@ -26,16 +26,16 @@
 <div class="col-md-3 col-12 mb-lg-4">
 
   <div class="d-flex align-items-center mb-3 justify-content-between">
-    <span class="h4 mb-0">{l s='Store information' d='Shop.Theme.Global'}</span>
+    <span class="h4 mb-0">{l s='VÊTEMENTS PATRICK' d='Shop.Theme.Global'}</span>
     <a href="#footer_contact_list" class="icon-collapse stretched-link text-reset d-block d-md-none" data-toggle="collapse">
       <i class="material-icons d-block"></i>
     </a>
   </div>
 
   <div class="collapse d-md-block" id="footer_contact_list">
-    {$contact_infos.address.formatted nofilter}
+    {* {$contact_infos.address.formatted nofilter} *}
     {if $contact_infos.phone}
-      <br>
+      <i class="fal fa-phone fa-flip-horizontal"></i>
       {* [1][/1] is for a HTML tag. *}
       {l s='Call us: [1]%phone%[/1]'
         sprintf=[
@@ -61,7 +61,7 @@
     {/if}
     {if $contact_infos.email && $display_email}
       <br>
-        {mailto address=$contact_infos.email encode="javascript"}
+       <i class="fal fa-envelope-open-text"></i> {mailto address=$contact_infos.email encode="javascript"}
     {/if}
   </div>
 

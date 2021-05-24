@@ -8,7 +8,9 @@
   padding-top: map-get($spacers, 3);
   background: #f1f1f1;
 }
-
+#contact-link a {
+  color:$gray-vet
+}
 .featured-products,
 .brands {
 
@@ -125,12 +127,12 @@
   .product-features {
     dt,dd {
       margin:0;
-      padding:0;
-      padding-left: 10px;
+      padding:10px 5px;
+      
       display:flex;
       align-items: center;
       justify-items: flex-start;
-      height: 40px;
+      min-height: 40px;
     }
     .odd {
       background: $breadcrumb-bg;
