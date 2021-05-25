@@ -26,7 +26,7 @@
 
 {block name='page_header_container'}{/block}
 
-{if $layout === 'layouts/layout-left-column.tpl'}
+{* {if $layout === 'layouts/layout-left-column.tpl'}
   {block name="left_column"}
     <div id="left-column" class="col-12 col-sm-4 col-md-3">
       {widget name="ps_contactinfo" hook='displayLeftColumn'}
@@ -38,7 +38,7 @@
       {widget name="ps_contactinfo" hook='displayRightColumn'}
     </div>
   {/block}
-{/if}
+{/if} *}
 
 {block name='page_content'}
   {widget name="contactform"}

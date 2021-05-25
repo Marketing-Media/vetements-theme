@@ -2,9 +2,12 @@
 label,
 .label {
   color: $black;
-  font-weight: bold;
+ 
   + span {
     font-size: $gray-600;
   }
 }
 
+.product-reference {
+  .label { font-weight: bold;}
+}
