@@ -17,7 +17,7 @@
         </ul>
         <div class="featured-products__footer mt-4 text-right">
             <a href="{url entity='manufacturer'}" class="btn btn-secondary">
-                {l s='See our brands' d='Shop.Theme.Homefooter'}
+                {l s='All brands' d='Shop.Theme.Homefooter'}
             </a>
         </div>
     </div>
