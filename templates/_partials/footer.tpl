@@ -29,20 +29,20 @@
         <div class="storeFront"><img src="{$urls.img_url}storefront.jpg" alt=""></div>
         <div class="storeInfo">
           <h2>
-            <i class="fal fa-map-marker-alt"></i> {l s='SHOP IN [1]STORE[/1]' sprintf=[1] tags=['<strong>']}
+            <i class="fal fa-map-marker-alt"></i> {l s='SHOP IN [1]STORE[/1]' sprintf=[1] tags=['<strong>'] d='Shop.Theme.Footer'}
           </h2>
           <div>
             <div class="address">
-              <h4>{l s='Vêtements Patrick' sprintf=[1] tags=['<strong>']}</h4>
-              <p>{l s='6631 Avenue Papineau[1]Montreal, Québec, Canada[1]H2G 2X3' sprintf=[1] tags=['<br>']}</p>
-              <div ><a href="#" class="btn btn-secondary">{l s='View map'}</a></div>
+              <h4>{l s='Vêtements Patrick' sprintf=[1] tags=['<strong>'] d='Shop.Theme.Footer'}</h4>
+              <p>{l s='6631 Avenue Papineau[1]Montreal, Québec, Canada[1]H2G 2X3' sprintf=[1] tags=['<br>'] d='Shop.Theme.Footer'}</p>
+              <div ><a href="#" class="btn btn-secondary">{l s='View map' d='Shop.Theme.Footer'}</a></div>
             </div>
             <div class="hours">
-              <h4>{l s='Opening Hours' sprintf=[1] tags=['<strong>']}</h4>
+              <h4>{l s='Opening Hours' sprintf=[1] tags=['<strong>'] d='Shop.Theme.Footer'}</h4>
               <p>
                 {l s='[1]Monday to Friday:[/1] 11:00 am – 6:00 pm[2]
                       [1]Saturday:[/1] 9:00 am – 5:00 pm[2]
-                      [1]Sunday:[/1] Closed' tags=['<strong>','<br>']}
+                      [1]Sunday:[/1] Closed' tags=['<strong>','<br>'] d='Shop.Theme.Footer'}
               </p>
             </div>
           </div>
