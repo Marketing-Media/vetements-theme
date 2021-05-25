@@ -176,6 +176,9 @@
         &:hover {
           background: $gray-600;
           color:white;
+          i {
+            color:white;
+          }
         }
         i {
           font-size: rem-calc(16px);

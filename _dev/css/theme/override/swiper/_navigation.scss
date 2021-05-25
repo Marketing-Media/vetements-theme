@@ -4,7 +4,9 @@
   height: auto;
   margin: 0;
   color: $black;
-
+  .homeslider &{ 
+    color:$white
+  }
   &::after {
     display: none;
   }
