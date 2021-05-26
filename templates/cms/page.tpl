@@ -42,6 +42,9 @@
     {block name='hook_cms_print_button'}
       {hook h='displayCMSPrintButton'}
     {/block}
+    <div class="cmsfooter">
+    tests
+    </div>
 
   </section>
 {/block}
