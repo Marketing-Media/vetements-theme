@@ -11,5 +11,26 @@
     max-width: 100%;
     height: auto;
   }
-
+  .cms-footer {
+    display: grid;
+    iframe {
+      width:100%;
+    }
+  }
+  .page-header {
+    display:none;
+  }
+  h1 {
+    text-align: left;
+    border-bottom: 1px solid $primary;
+    padding-bottom: 15px; 
+    text-transform: none;
+    +h2 {
+      font-weight: normal;
+      text-transform: none;
+      +h3 {
+        font-size: rem-calc(18px);
+      }
+    }
+  }
 }
