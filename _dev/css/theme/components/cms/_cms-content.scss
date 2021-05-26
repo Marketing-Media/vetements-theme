@@ -11,7 +11,7 @@
     max-width: 100%;
     height: auto;
   }
-  .cms-footer {
+  .cmsfooter{
     display: grid;
     iframe {
       width:100%;
@@ -28,9 +28,10 @@
     +h2 {
       font-weight: normal;
       text-transform: none;
-      +h3 {
-        font-size: rem-calc(18px);
-      }
+      
     }
+  }
+  h3 {
+    font-size: rem-calc(18px);
   }
 }
