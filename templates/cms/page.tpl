@@ -43,7 +43,9 @@
       {hook h='displayCMSPrintButton'}
     {/block}
     <div class="cmsfooter">
-    tests
+    <iframe
+						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11177.200233001739!2d-73.5986979!3d45.5442891!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfbe449a93f94f670!2sV%C3%AAtements%20Patrick!5e0!3m2!1sen!2smx!4v1568397211934!5m2!1sen!2smx"
+						width=600" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
 
   </section>
