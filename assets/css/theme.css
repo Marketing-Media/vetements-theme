@@ -8419,7 +8419,7 @@ label,
         color: #000;
         font-size: 1.125rem; } }
   .talk_to_expert .contact_options {
-    border-top: 1px dotted #dee2e6;
+    border-bottom: 1px dotted #adb5bd;
     padding-bottom: 20px; }
   .talk_to_expert .notavailable {
     display: grid;

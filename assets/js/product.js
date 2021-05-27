@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "f6d41eb7f7cf44cd1729";
+/******/ 	var hotCurrentHash = "8cdf75e57b18e95d36e7";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -898,7 +898,7 @@ function activateFirstProductTab() {
     }
   });
 }
-if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }
+if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }if (module.hot) { module.hot.accept(); }
 
 /***/ }),
 

@@ -91,7 +91,7 @@
     }
   }
   .contact_options {
-    border-top:1px dotted $gray-300;
+    border-bottom:1px dotted $gray-500;
     padding-bottom: map-get($map: $spacers, $key: 3);
   }
   .notavailable {
