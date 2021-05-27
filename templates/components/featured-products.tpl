@@ -24,8 +24,8 @@
     {$sliderConfig = [
       'speed' => 500,
       'slidesPerView' => 4,
-      'slidesPerColumn' => 2,
-      'slidesPerGroup' =>3,
+      
+      
       
       'spaceBetween' => 30,
       
@@ -35,11 +35,14 @@
           
         ],
         '768' => [
+          'slidesPerGroup' =>3,
+          'slidesPerColumn' => 2,
           'slidesPerView' => 3
           
         ],
         '992' => [
-          
+          'slidesPerGroup' =>4,
+          'slidesPerColumn' => 2,
           'slidesPerView' => 4
           
         ]
