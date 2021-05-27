@@ -53,14 +53,18 @@
         
         {if $contact_infos.email && $display_email}
 
-        <li><i class="fal fa-envelope-open-text"></i> {mailto address=$contact_infos.email
-          encode="javascript" text="Contact"}
+        <li><i class="fal fa-envelope-open-text"></i> <a href="url entity='contact'}"></a>
+        {* {mailto address=$contact_infos.email encode="javascript" text="Contact"} *}
         
         </li>
         {/if}
         <li class="social">
           <a href="https://www.facebook.com/patrickvetements?ref=hl" target="_blank"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com/vetementspatrick/"><i class="fab fa-instagram"></i></a>
+          
+          <a href="https://twitter.com/patrick_contact"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.youtube.com/watch?v=dyqziedn8c4"><i class="fab fa-youtube"></i></a>
+          
         </li>
       </ul>
 

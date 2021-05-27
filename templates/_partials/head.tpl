@@ -30,7 +30,7 @@
 {/block}
 
 {block name='head_seo'}
-  <title>{block name='head_seo_title'}{$page.meta.title}{/block}</title>
+  <title>{block name='head_seo_title'}{$page.meta.title} | Vêtements Patrick{/block}</title>
   {block name='hook_after_title_tag'}
     {hook h='displayAfterTitleTag'}
   {/block}
@@ -54,8 +54,8 @@
 {/block}
 
 {block name='head_icons'}
-  <link rel="icon" type="image/vnd.microsoft.icon" href="{$urls.img_ps_url}{$shop.favicon}?{$shop.favicon_update_time}">
-  <link rel="shortcut icon" type="image/x-icon" href="{$urls.img_ps_url}{$shop.favicon}?{$shop.favicon_update_time}">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="{$shop.favicon}?{$shop.favicon_update_time}">
+  <link rel="shortcut icon" type="image/x-icon" href="{$shop.favicon}?{$shop.favicon_update_time}">
 {/block}
 
 {block name='head_preload'}
