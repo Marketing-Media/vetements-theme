@@ -8211,6 +8211,9 @@ label,
       font-size: 1.75rem;
       font-weight: bold;
       color: #FF151F; }
+      @media (max-width: 992px) {
+        .lastBanners li .strong {
+          font-size: calc(1.01875rem + 1.17944vw) ; } }
     .lastBanners li .simple {
       font-size: 1.25rem;
       color: white; }
@@ -8420,7 +8423,7 @@ label,
         font-size: 1.125rem; } }
   .talk_to_expert .contact_options {
     border-bottom: 1px dotted #adb5bd;
-    padding-bottom: 20px; }
+    padding-bottom: 10px; }
   .talk_to_expert .notavailable {
     display: grid;
     padding: 20px;

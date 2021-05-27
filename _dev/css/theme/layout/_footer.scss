@@ -40,7 +40,8 @@
 
     .strong {
       margin-top: map-get($map: $spacers, $key: 3);
-      font-size: $h2-font-size;
+      @include font-size($h2-font-size);
+      
       font-weight: bold;
       color: $strong-red;
     }

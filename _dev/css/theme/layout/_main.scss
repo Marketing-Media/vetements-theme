@@ -92,7 +92,7 @@
   }
   .contact_options {
     border-bottom:1px dotted $gray-500;
-    padding-bottom: map-get($map: $spacers, $key: 3);
+    padding-bottom: map-get($map: $spacers, $key: 2);
   }
   .notavailable {
     display: grid;
