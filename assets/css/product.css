@@ -68,5 +68,8 @@
   .product-customization small {
     color: #7A7A7A; }
 
+.product-variants-item, .product-add-to-cart {
+  margin-top: 10px; }
+
 
 /*# sourceMappingURL=product.css.map*/
