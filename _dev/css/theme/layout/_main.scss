@@ -90,11 +90,16 @@
       }
     }
   }
-
+  .contact_options {
+    border-top:1px dotted $gray-300;
+    padding-bottom: map-get($map: $spacers, $key: 3);
+  }
   .notavailable {
     display: grid;
     padding: map-get($spacers, 3);
     grid-template-columns: auto 40px;
+    margin-top: map-get($spacers, 3);
+    
     .text {
       justify-content: center;
     display: flex;
