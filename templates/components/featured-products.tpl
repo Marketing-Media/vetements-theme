@@ -26,15 +26,15 @@
       
       'breakpoints' => [
         '320' => [
-          'slidesPerView' => 2
+          'slidesPerView' => 2,
           'slidesPerColumn' => 2
         ],
         '768' => [
-          'slidesPerView' => 3
+          'slidesPerView' => 3,
           'slidesPerColumn' => 2
         ],
         '992' => [
-          'slidesPerView' => 4
+          'slidesPerView' => 4,
           'slidesPerColumn' => 2
         ]
       ]
