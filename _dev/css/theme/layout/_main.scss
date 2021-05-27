@@ -26,7 +26,8 @@
   border-top:1px dotted $gray-500;
   padding-top: map-get($spacers, 3);
   img {
-    justify-self: center;
+    display:block;
+    margin:map-get($spacers, 2) auto;
   }
   h2 {
     text-align: center;
@@ -94,7 +95,11 @@
     display: grid;
     padding: map-get($spacers, 3);
     grid-template-columns: auto 40px;
-
+    .text {
+      justify-content: center;
+    display: flex;
+    flex-direction: column;
+    }
     .strong {
       font-size: rem-calc(20px);
       font-weight: bold;

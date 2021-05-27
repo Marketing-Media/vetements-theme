@@ -8379,7 +8379,8 @@ label,
   border-top: 1px dotted #adb5bd;
   padding-top: 20px; }
   .talk_to_expert img {
-    justify-self: center; }
+    display: block;
+    margin: 10px auto; }
   .talk_to_expert h2 {
     text-align: center;
     margin-bottom: 0;
@@ -8421,6 +8422,10 @@ label,
     display: grid;
     padding: 20px;
     grid-template-columns: auto 40px; }
+    .talk_to_expert .notavailable .text {
+      justify-content: center;
+      display: flex;
+      flex-direction: column; }
     .talk_to_expert .notavailable .strong {
       font-size: 1.25rem;
       font-weight: bold; }
