@@ -23,7 +23,7 @@
 
     {$sliderConfig = [
       'speed' => 500,
-      
+      'loop' => 0,
       'breakpoints' => [
         '320' => [
           'slidesPerView' => 2,
