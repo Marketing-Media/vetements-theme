@@ -8432,6 +8432,12 @@ label,
     .talk_to_expert .notavailable .simple {
       font-size: 0.9375rem;
       color: #7A7A7A; }
+    @media (max-width: 991.98px) {
+      .talk_to_expert .notavailable {
+        grid-template-columns: 1fr; }
+        .talk_to_expert .notavailable .icon {
+          grid-row: 1;
+          grid-column: 1; } }
 
 .product_infos .card .card-header {
   background: none;

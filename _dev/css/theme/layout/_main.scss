@@ -109,6 +109,14 @@
       font-size: rem-calc(15px);
       color: $gray-600;
     }
+    @include media-breakpoint-down(md) {
+        grid-template-columns: 1fr;
+        .icon{
+          grid-row:1;
+          grid-column: 1;
+        }
+      
+    }
   }
 }
 
