@@ -31,14 +31,12 @@
           
         ],
         '768' => [
-          'slidesPerGroup' =>3,
-          'slidesPerColumn' => 2,
+
           'slidesPerView' => 3
           
         ],
         '992' => [
-          'slidesPerGroup' =>4,
-          'slidesPerColumn' => 2,
+
           'slidesPerView' => 4
           
         ]
