@@ -37,7 +37,7 @@
     {/if}
   </div>
 
-  <div class="col flex-grow-0 d-none d-lg-block ml-auto">
+  {* <div class="col flex-grow-0 d-none d-lg-block ml-auto">
     <ul class="display-toggle d-flex align-items-center mx-n1 m-0">
       <li class="display-toggle__elem px-1">
         <a href="#" data-toggle-listing data-display-type="grid" class="display-toggle__link d-inline-block {if $listingDisplayType == 'grid'}active{/if}">
@@ -50,5 +50,5 @@
         </a>
       </li>
     </ul>
-  </div>
+  </div> *}
 </div>

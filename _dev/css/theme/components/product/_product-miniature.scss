@@ -28,7 +28,7 @@
     $line-height: 1.3;
     height: #{$number-of-lines * $line-height}em;
     overflow: hidden;
-
+    text-transform: none !important;
     line-height: $line-height;
   }
 

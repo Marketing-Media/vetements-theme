@@ -92,6 +92,7 @@
 
   .storeFront {
     grid-area: storeFront;
+    justify-self: flex-end;
 
     img {
       display: block;
