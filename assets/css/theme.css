@@ -8438,6 +8438,9 @@ label,
         .talk_to_expert .notavailable .icon {
           grid-row: 1;
           grid-column: 1; } }
+    @media (max-width: 767.98px) {
+      .talk_to_expert .notavailable .text {
+        align-items: center; } }
 
 .product_infos .card .card-header {
   background: none;
