@@ -2,9 +2,9 @@
   <div class="featured-products my-4 {block name='featured_products_class'}{/block}">
 
     {block name='featured_products_header'}
-      <div class="featured-products__header d-flex align-items-center mb-3 flex-grow-1">
+      <div class="featured-products__header d-flex align-items-center mb-3 ">
         {block name='featured_products_title' hide}
-          <p class="h3 featured-products__title m-0">
+          <p class="h3 featured-products__title m-0 flex-grow-1">
             {$smarty.block.child}
           </p>
         {/block}
