@@ -51,7 +51,7 @@
       color: white;
 
       span {
-        font-size: rem-calc(14px);
+        @include font-size(14px);
       }
     }
     &:hover {
