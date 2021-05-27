@@ -26,15 +26,15 @@
       'loop' => 0,
       'breakpoints' => [
         '320' => [
-          'slidesPerView' => 4,
+          'slidesPerView' => 2,
           'slidesPerColumn' => 2
         ],
         '768' => [
-          'slidesPerView' => 6,
+          'slidesPerView' => 3,
           'slidesPerColumn' => 2
         ],
         '992' => [
-          'slidesPerView' => 8,
+          'slidesPerView' => 4,
           'slidesPerColumn' => 2
         ]
       ]
