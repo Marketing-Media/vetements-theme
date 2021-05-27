@@ -2,5 +2,5 @@
 @import "product/index";
 
 .product-variants-item,.product-add-to-cart {
-    margin-top: map-get($map: $spacers, $key: 2);
+    margin-top: 25px;
 }
