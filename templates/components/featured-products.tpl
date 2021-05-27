@@ -25,7 +25,7 @@
       'speed' => 500,
       'slidesPerView'=> 3,
       'slidesPerColumn' => 2,
-      'spaceBetween' =>30,
+      'spaceBetween' => 30,
       
       'breakpoints' => [
         '320' => [
@@ -37,7 +37,7 @@
           
         ],
         '992' => [
-          'slidesPerColumn' => 2,
+          
           'slidesPerView' => 4
           
         ]
