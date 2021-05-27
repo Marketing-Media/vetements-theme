@@ -8217,6 +8217,9 @@ label,
     .lastBanners li .simple {
       font-size: 1.25rem;
       color: white; }
+      @media (max-width: 992px) {
+        .lastBanners li .simple {
+          font-size: calc(0.96875rem + 0.45363vw) ; } }
       .lastBanners li .simple span {
         font-size: 0.875rem; }
     .lastBanners li:hover {

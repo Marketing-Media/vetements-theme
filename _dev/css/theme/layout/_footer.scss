@@ -47,7 +47,7 @@
     }
 
     .simple {
-      font-size: rem-calc(20px);
+      @include font-size(20px);
       color: white;
 
       span {
