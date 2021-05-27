@@ -1,4 +1,5 @@
 <div class="talk_to_expert">
+    <img src="{$urls.img_url}callus.png" alt="" class="expert">
     <h2>{l s='TALK TO AN EXPERT' sprintf=['[1]' => '<strong>','[/1]' => '</strong>'] d='Shop.Theme.Talktoexpert'}</h2>
     <div class="small">{l s='We are here to help you' sprintf=['[1]' => '<strong>','[/1]' => '</strong>'] d='Shop.Theme.Talktoexpert'}</div>
     <div class="contact_options">
