@@ -1,4 +1,3 @@
-
 .homeslider {
 
   &__img {
@@ -16,9 +15,9 @@
   &__caption {
     position: absolute;
     top: 50%;
-    left: 80px;
+    left: 40px;
     transform: translateY(-50%);
-    width:27%;
+    width: 27%;
 
   }
 
@@ -26,16 +25,43 @@
     * {
       color: $white;
     }
+
+    p:first-child {
+      margin-bottom: 10px;
+    }
+
     .display-1 {
       @include font-size(30px);
       font-weight: bold;
       margin-bottom: 10px;
       text-transform: none;
-      + p {
-       @include font-size(15px);
+
+      +p {
+        @include font-size(15px);
 
       }
+
     }
+
+    @include media-breakpoint-down(xl) {
+      .display-1 {
+        @include font-size(26px);
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-transform: none;
+
+        +p {
+          @include font-size(14px);
+
+        }
+
+        img {
+          max-width: 60px;
+          height: auto;
+        }
+      }
+    }
+
   }
 
 
@@ -45,7 +71,7 @@
     padding: 0;
     line-height: 1;
 
-    > * {
+    >* {
       font-size: rem-calc(40px);
     }
 
