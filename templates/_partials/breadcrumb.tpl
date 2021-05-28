@@ -35,9 +35,9 @@
                 {if $language.iso_code == fr}
                 {$path.title|replace:"Your Cart":"Votre panier"}
                 {else}
-                {$path.title} {$language.iso_code}
+                {$path.title} 
                 {/if}
-                  
+                  {$language.iso_code}
                 </a>
               </li>
             {/block}
