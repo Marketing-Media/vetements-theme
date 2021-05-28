@@ -21,6 +21,12 @@
     text-align: center;
   }
 }
+.product-manufacturer {
+  margin-bottom: 20px;
+  .img-thumbnail {
+    border:none;
+  }
+}
 
 .talk_to_expert {
   border-top:1px dotted $gray-500;
