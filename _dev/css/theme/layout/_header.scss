@@ -73,3 +73,10 @@
     }
   }
 }
+@include media-breakpoint-down(md) {
+#ps_topbanner_wrapper {
+  height: auto !important;
+  padding: 10px !important;
+  line-height: 2.2 !important;
+  }
+}
