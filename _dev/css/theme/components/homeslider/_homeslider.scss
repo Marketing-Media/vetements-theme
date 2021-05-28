@@ -67,7 +67,7 @@
         }
       }
     }
-    
+
     @include media-breakpoint-up(xl) {
       .display-1 {
         @include font-size(30px);
@@ -110,6 +110,8 @@
     }
   }
   @include media-breakpoint-down(md) {
-    display: none;
+    @media (orientation: landscape) {
+
+    display: none;}
   }
 }
