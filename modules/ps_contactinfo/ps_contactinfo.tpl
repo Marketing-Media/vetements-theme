@@ -23,7 +23,7 @@
   * @license https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
   *}
 
-  <div class="col-md-12 col-lg-3 col-12 mb-lg-4 contact_infos text-md-center text-lg-center">
+  <div class="col-md-12 col-lg-3 col-12 mb-lg-4 contact_infos text-md-center text-lg-left">
 
     <div class="d-flex align-items-center mb-3 justify-content-lg-between justify-content-md-center">
       <span class="h4 mb-0">{l s='VÊTEMENTS PATRICK' d='Shop.Theme.Global'}</span>
