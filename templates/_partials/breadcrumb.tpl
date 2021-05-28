@@ -33,7 +33,7 @@
               <li {if $smarty.foreach.breadcrumb.last}class="breadcrumb-item active" aria-current="page"{else}class="breadcrumb-item"{/if}>
                 <a href="{$path.url}">
                 {if $language.iso_code = fr}
-                {{assign var=path.title value="Votre panier"}
+                {assign var=path.title value="Votre panier"}
                 {/if}
                   {$path.title}
                 </a>
