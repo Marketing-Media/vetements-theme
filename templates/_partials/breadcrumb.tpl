@@ -32,6 +32,9 @@
             {block name='breadcrumb_item'}
               <li {if $smarty.foreach.breadcrumb.last}class="breadcrumb-item active" aria-current="page"{else}class="breadcrumb-item"{/if}>
                 <a href="{$path.url}">
+                {if $language.iso_code = fr}
+                {{assign var=path.title value="Votre panier"}
+                {/if}
                   {$path.title}
                 </a>
               </li>
