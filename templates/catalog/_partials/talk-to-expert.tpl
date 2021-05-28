@@ -5,21 +5,21 @@
     <div class="contact_options">
         <ul class="grid_mm">
             <li class="card">
-                <a href="#">
+                <a href="tel:1 888 746 5072'">
                     <i class="fas fa-phone"></i>
                     <span class="where">{l s='ORDER BY PHONE' sprintf=['[1]' => '<strong>','[/1]' => '</strong>'] d='Shop.Theme.Talktoexpert'}</span>
                     <span class="strong">{l s='1 888 746 5072' sprintf=['[1]' => '<strong>','[/1]' => '</strong>'] d='Shop.Theme.Talktoexpert'}</span>
                 </a>
             </li>
             <li class="card">
-                <a href="#">
+                <a href="https://www.google.com/maps/place/V%C3%AAtements+Patrick/@45.544289,-73.598698,14z/data=!4m5!3m4!1s0x0:0xfbe449a93f94f670!8m2!3d45.5442891!4d-73.5986979?hl={$language.iso_code}" target="_blank">
                     <i class="fas fa-map-marker-alt"></i>
                     <span class="where">{l s='SHOP' sprintf=['[1]' => '<strong>','[/1]' => '</strong>'] d='Shop.Theme.Talktoexpert'}</span>
                     <span class="strong">{l s='IN STORE' sprintf=['[1]' => '<strong>','[/1]' => '</strong>'] d='Shop.Theme.Talktoexpert'}</span>
                 </a>
             </li>
             <li class="card">
-                <a href="#">
+                <a href="http://m.me/patrickvetements" target="_blank">
                     <i class="fab fa-facebook-messenger"></i>
                     <span class="where">{l s='CHAT' sprintf=['[1]' => '<strong>','[/1]' => '</strong>'] d='Shop.Theme.Talktoexpert'}</span>
                     <span class="strong">{l s='ONLINE' sprintf=['[1]' => '<strong>','[/1]' => '</strong>'] d='Shop.Theme.Talktoexpert'}</span>
