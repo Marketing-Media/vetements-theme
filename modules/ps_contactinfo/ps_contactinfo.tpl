@@ -37,6 +37,7 @@
       {* {$contact_infos.address.formatted nofilter} *}
       <ul>
         <li>
+        <a href="tel:{$contact_infos.phone}">
           {if $contact_infos.phone}
           <i class="fal fa-phone fa-flip-horizontal"></i>
           {* [1][/1] is for a HTML tag. *}
@@ -49,6 +50,7 @@
           d='Shop.Theme.Global'
           }
           {/if}
+          </a>
         </li>
         
         {if $contact_infos.email && $display_email}
