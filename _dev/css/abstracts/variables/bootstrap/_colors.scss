@@ -23,6 +23,7 @@ $yellow:  #ffc107;
 $green:   #28a745;
 $teal:    #20c997;
 $cyan:    #17a2b8;
+$special-gray: #E6E6E6;
 $breadcrumb-bg: #f1f1f1;
 
 
@@ -34,3 +35,19 @@ $warning:       #ff9a52;
 $danger:        $red;
 $light:         $gray-100;
 $dark:          $gray-800;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "special-g": $special-gray,
+    "dark":       $dark
+  ),
+  $theme-colors
+);
