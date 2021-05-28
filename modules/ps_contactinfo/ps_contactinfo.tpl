@@ -25,7 +25,7 @@
 
   <div class="col-md-12 col-lg-3 col-12 mb-lg-4 contact_infos text-md-center">
 
-    <div class="d-flex align-items-center mb-3 justify-content-between justify-content-md-center">
+    <div class="d-flex align-items-center mb-3 justify-content-lg-between justify-content-md-center">
       <span class="h4 mb-0">{l s='VÊTEMENTS PATRICK' d='Shop.Theme.Global'}</span>
       <a href="#footer_contact_list" class="icon-collapse stretched-link text-reset d-block d-md-none"
         data-toggle="collapse">
@@ -58,7 +58,7 @@
         
         </li>
         {/if}
-        <li class="social justify-content-md-center">
+        <li class="social justify-content-md-center justify-content-lg-start">
           <a href="https://www.facebook.com/patrickvetements?ref=hl" target="_blank"><i class="fab fa-facebook-f"></i></a>
           <a href="https://www.instagram.com/vetementspatrick/"><i class="fab fa-instagram"></i></a>
           
