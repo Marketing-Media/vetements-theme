@@ -37,7 +37,7 @@
                 {else}
                 {$path.title} 
                 {/if}
-                  {$language.iso_code}
+                  
                 </a>
               </li>
             {/block}
