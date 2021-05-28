@@ -109,7 +109,7 @@
 
   .storeInfo {
     grid-area: storeInfo;
-    line-height: 2;
+    line-height: 1.7;
     h2 {
       font-weight: bold;
       margin-bottom: map-get($spacers, 6);
@@ -192,5 +192,12 @@
       }
 
     }
+  }
+}
+.copyrights .flex {
+  display:flex;
+  @include media-breakpoint-up(sm) {
+    flex-direction:column;
+    
   }
 }

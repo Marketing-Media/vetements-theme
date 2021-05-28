@@ -75,3 +75,21 @@
       </div>
     </div>
   </div>
+<section class="copyrights">
+  <div class="container">
+    <div class="flex">
+      <div class="left">
+        
+          {block name='copyright_link'}
+            
+              © {l s='Vêtements Patrick' d='Shop.Theme.Footer'} {l s='All prices listed are in Canadian dollars.' d='Shop.Theme.Footer'} 
+            
+          {/block}
+      </div>
+      <div class="right">
+        <a class="scolor" target="_blank"  href="https://marketingmedia.ca{if $language.iso_code == qc}/fr/{/if}">{l s='Web Agency' d='Shop.Theme.Footer'} </a><a  target="_blank"  href="{if $language.iso_code == en}https://marketingmedia.ca/services/website/{else}https://marketingmedia.ca/fr/services/site-internet/{/if}"><img src="{$urls.img_url}mmlogo.svg" alt="Marketing Media" heigth="15px"></a>
+      </div>
+    </div>
+  </div>
+  
+</section>
