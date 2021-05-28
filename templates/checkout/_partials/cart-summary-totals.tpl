@@ -30,7 +30,7 @@
       <span class="value">{$cart.totals.total.value}</span>
     </div>
     <div class="cart-summary-line cart-total">
-      <span class="label">{$cart.totals.total_including_tax.label|replace::"TTC":"(avec taxes)"}</span>
+      <span class="label">{$cart.totals.total_including_tax.label|replace:"TTC":"(avec taxes)"}</span>
       <span class="value">{$cart.totals.total_including_tax.value}</span>
     </div>
   {else}
