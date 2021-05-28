@@ -15,9 +15,11 @@
 
   &__caption {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 80px;
     transform: translateY(-50%);
+    width:27%;
+
   }
 
   &__desc {
@@ -28,6 +30,7 @@
       @include font-size(30px);
       font-weight: bold;
       margin-bottom: 10px;
+      text-transform: none;
       + p {
        @include font-size(15px);
 
