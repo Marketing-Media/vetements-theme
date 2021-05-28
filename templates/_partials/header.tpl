@@ -59,7 +59,7 @@
           </a>
         </div>
 
-        <div class="col-md-4 col header-top__block header-top__block--logo">
+        <div class="col-md-3 col header-top__block header-top__block--logo">
           {if $page.page_name == 'index'}
             <h1 class="mb-0">
           {/if}
