@@ -120,7 +120,9 @@
         color: $strong-red;
       }
     }
-
+    h4 {
+      text-transform: none;
+    }
     > div {
       display: grid;
       grid-gap: 30px;
