@@ -46,7 +46,7 @@
         {foreach from=$displayedFacets item="facet"}
 
           {assign var=_expand_id value=10|mt_rand:100000}
-          {assign var=_collapse value=true}
+          {assign var=_collapse value=false}
           {foreach from=$facet.filters item="filter"}
             {if $filter.active}{assign var=_collapse value=false}{/if}
           {/foreach}
