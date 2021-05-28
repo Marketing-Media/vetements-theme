@@ -196,6 +196,10 @@
 }
 .copyrights {
     min-height: 40px;
+    padding:10px 0;
+  @include media-breakpoint-down(md) {
+    text-align: center;
+  }
     background-color: #F1F1F1;
     color:#7A7A7A;
     a {
