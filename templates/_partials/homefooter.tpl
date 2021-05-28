@@ -16,8 +16,8 @@
 
         </ul>
         <div class="featured-products__footer mt-4 text-right">
-            <a href="{url entity='manufacturer'}" class="btn btn-secondary">
-                {l s='All brands' d='Shop.Theme.Homefooter'}
+            <a href="{url entity='manufacturer'}" class="btn btn-light">
+                {l s='All brands' d='Shop.Theme.Homefooter'} <i class="fas fa-chevron-right"></i>
             </a>
         </div>
     </div>

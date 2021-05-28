@@ -53,7 +53,7 @@
         
         {if $contact_infos.email && $display_email}
 
-        <li><i class="fal fa-envelope-open-text"></i> <a href="url entity='contact'}">{l s='Contact' d='Shop.Theme.Global'}</a>
+        <li><i class="fal fa-envelope-open-text"></i> <a href="{url entity='contact'}">{l s='Contact' d='Shop.Theme.Global'}</a>
         {* {mailto address=$contact_infos.email encode="javascript" text="Contact"} *}
         
         </li>

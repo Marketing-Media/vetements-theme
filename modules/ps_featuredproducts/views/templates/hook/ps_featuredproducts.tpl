@@ -30,7 +30,7 @@
 {/block}
 
 {block name='featured_products_footer'}
-  <a class="btn btn-secondary" href="{$allProductsLink}">
-    {l s='All products' d='Shop.Theme.Catalog'}
+  <a class="btn btn-light" href="{$allProductsLink}">
+    {l s='All products' d='Shop.Theme.Catalog'} <i class="fas fa-chevron-right"></i>
   </a>
 {/block}
