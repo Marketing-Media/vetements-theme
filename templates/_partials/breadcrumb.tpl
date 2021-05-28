@@ -32,7 +32,7 @@
             {block name='breadcrumb_item'}
               <li {if $smarty.foreach.breadcrumb.last}class="breadcrumb-item active" aria-current="page"{else}class="breadcrumb-item"{/if}>
                 <a href="{$path.url}">
-                {if $language.iso_code = fr}
+                {if $language.iso_code == fr}
                 {$path.title|replace:"Your Cart":"Votre panier"}
                 {else}
                 {$path.title}
