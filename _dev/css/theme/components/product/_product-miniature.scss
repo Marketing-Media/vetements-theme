@@ -31,7 +31,12 @@
     text-transform: none !important;
     line-height: $line-height;
   }
-
+  &__actions .btn{
+    font-size: 16px;
+    @include media-breakpoint-down(sm) {
+      padding:1rem 1.3rem;
+    }
+  }
   &--smaller {
     .price,
     #{$self}__title {
