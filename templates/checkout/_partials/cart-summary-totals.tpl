@@ -26,11 +26,11 @@
 {block name='cart_summary_total'}
   {if !$configuration.display_prices_tax_incl && $configuration.taxes_enabled}
     <div class="cart-summary-line">
-      <span class="label">{$cart.totals.total.label}&nbsp;{$cart.labels.tax_short}</span>
+      <span class="label">{$cart.totals.total.label}&nbsp;{$cart.labels.tax_short|replace:"HT":"avant taxe"}</span>
       <span class="value">{$cart.totals.total.value}</span>
     </div>
     <div class="cart-summary-line cart-total">
-      <span class="label">{$cart.totals.total_including_tax.label}</span>
+      <span class="label">{$cart.totals.total_including_tax.label|replace::"TTC":"(avec taxes)"}</span>
       <span class="value">{$cart.totals.total_including_tax.value}</span>
     </div>
   {else}
