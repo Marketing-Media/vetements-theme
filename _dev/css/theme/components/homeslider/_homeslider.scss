@@ -52,7 +52,22 @@
         height: auto;
       }
     }
+    @include media-breakpoint-down(lg) {
+      .display-1 {
+        @include font-size(24px);
 
+        +p {
+          @include font-size(13px);
+
+        }
+
+        img {
+          max-width: 40px;
+          height: auto;
+        }
+      }
+    }
+    
     @include media-breakpoint-up(xl) {
       .display-1 {
         @include font-size(30px);
@@ -71,21 +86,7 @@
 
    
 
-    @include media-breakpoint-down(lg) {
-      .display-1 {
-        @include font-size(17px);
-
-        +p {
-          @include font-size(13px);
-
-        }
-
-        img {
-          max-width: 40px;
-          height: auto;
-        }
-      }
-    }
+    
 
   }
 
