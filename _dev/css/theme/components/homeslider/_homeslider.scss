@@ -29,7 +29,7 @@
     p:first-child {
       margin-bottom: 10px;
     }
-
+    @include media-breakpoint-up(xl) {
     .display-1 {
       @include font-size(30px);
       font-weight: bold;
@@ -42,6 +42,7 @@
       }
 
     }
+  }
 
     @include media-breakpoint-down(xl) {
       .display-1 {
@@ -52,6 +53,25 @@
 
         +p {
           @include font-size(14px);
+
+        }
+
+        
+      }
+      img {
+        max-width: 60px;
+        height: auto;
+      }
+    }
+    @include media-breakpoint-down(lg) {
+      .display-1 {
+        @include font-size(17px);
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-transform: none;
+
+        +p {
+          @include font-size(13px);
 
         }
 
