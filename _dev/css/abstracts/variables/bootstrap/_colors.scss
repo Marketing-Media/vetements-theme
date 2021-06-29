@@ -36,17 +36,19 @@ $danger:        $red;
 $light:         $gray-100;
 $dark:          $gray-800;
 
+
+
 $theme-colors: () !default;
 $theme-colors: map-merge(
   (
     "primary":    $primary,
     "secondary":  $secondary,
     "success":    $success,
+    "special-g":  $special-g,
     "info":       $info,
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
-    "special-g": $special-gray,
     "dark":       $dark
   ),
   $theme-colors
