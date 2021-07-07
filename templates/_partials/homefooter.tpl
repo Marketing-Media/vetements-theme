@@ -3,16 +3,16 @@
     <div class="container">
         <h3 class="subline">{l s="Popular Brands" d='Shop.Theme.Homefooter'}</h3>
         <ul class="grid_mm ">
-            <li><a href="{$link->getManufacturerLink(1)}"><img src="{$urls.img_url}brand1.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(1)}"><img src="{$urls.img_url}brand2.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(1)}"><img src="{$urls.img_url}brand3.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(1)}"><img src="{$urls.img_url}brand4.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(1)}"><img src="{$urls.img_url}brand5.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(1)}"><img src="{$urls.img_url}brand6.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(1)}"><img src="{$urls.img_url}brand7.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(1)}"><img src="{$urls.img_url}brand8.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(1)}"><img src="{$urls.img_url}brand9.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(1)}"><img src="{$urls.img_url}brand10.png" alt=""></a></li>
+            <li><a href="{$link->getManufacturerLink(2)}"><img src="{$urls.img_url}brand1.png" alt=""></a></li>
+            <li><a href="{$link->getManufacturerLink(53)}"><img src="{$urls.img_url}brand2.png" alt=""></a></li>
+            <li><a href="{$link->getManufacturerLink(24)}"><img src="{$urls.img_url}brand3.png" alt=""></a></li>
+            <li><a href="{$link->getManufacturerLink(25)}"><img src="{$urls.img_url}brand4.png" alt=""></a></li>
+            <li><a href="{$link->getManufacturerLink(55)}"><img src="{$urls.img_url}brand5.png" alt=""></a></li>
+            <li><a href="{$link->getManufacturerLink(60)}"><img src="{$urls.img_url}brand6.png" alt=""></a></li>
+            <li><a href="{$link->getManufacturerLink(49)}"><img src="{$urls.img_url}brand7.png" alt=""></a></li>
+            <li><a href="{$link->getManufacturerLink(45)}"><img src="{$urls.img_url}brand8.png" alt=""></a></li>
+            <li><a href="{$link->getManufacturerLink(27)}"><img src="{$urls.img_url}brand9.png" alt=""></a></li>
+            <li><a href="{$link->getManufacturerLink(29)}"><img src="{$urls.img_url}brand10.png" alt=""></a></li>
 
         </ul>
         <div class="featured-products__footer mt-4 text-right">
@@ -20,7 +20,7 @@
                 {l s='All brands' d='Shop.Theme.Homefooter'} <i class="fas fa-chevron-right"></i>
             </a>
         </div>
-    </div>
+    </div> 
 </div>
 
 <div class="lastBanners">
