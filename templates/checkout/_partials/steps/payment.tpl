@@ -20,7 +20,7 @@
     {foreach from=$payment_options item="module_options"}
       {foreach from=$module_options item="option"}
         <div
-          class="col-12 col-md-6 col-lg-4 mb-3 checkout-option-block checkout-option {if $selected_payment_option == $option.id || $is_free}selected{/if}">
+          class="col-12 col-md-12 checkout-option-block checkout-option {if $selected_payment_option == $option.id || $is_free}selected{/if}">
             <input class="ps-shown-by-js custom-control-input{if $option.binary} binary{/if}" id="{$option.id}"
                 data-module-name="{$option.module_name}" name="payment-option" type="radio" required
                 {if $selected_payment_option == $option.id || $is_free} checked {/if}>
@@ -29,10 +29,8 @@
                 <div class="address__header card-header h5 text-center">
                     {$option.call_to_action_text}
                 </div>
-                
-            </label>
-            <div id="pay-with-{$option.id}-form"
-                class="js-payment-option-form {if $option.id != $selected_payment_option} ps-hidden {/if}">
+                <div id="pay-with-{$option.id}-form"
+                class="js-payment-option-form px-2 {if $option.id != $selected_payment_option} ps-hidden {/if}">
                 {if $option.form}
                 {$option.form nofilter}
                 {else}
@@ -44,6 +42,8 @@
                 </form>
                 {/if}
             </div>
+            </label>
+            
         </div>
         <div
           id="pay-with-{$option.id}-form"
