@@ -30,7 +30,16 @@
                     {$option.call_to_action_text}
                 </div>
                 <div class="card-body address__body text-center">
-                    <div id="pay-with-{$option.id}-form"
+                    <div class="checkout-option__thumb mb-2">
+                        {if $option.logo}
+                            <img src="{$option.logo}" class="checkout-option__img" />
+                        {else}
+                            <img src="{$urls.img_url}payment/bankwire.svg" class="checkout-option__img" />
+                        {/if}
+                    </div>
+                </div>
+            </label>
+            <div id="pay-with-{$option.id}-form"
                 class="js-payment-option-form {if $option.id != $selected_payment_option} ps-hidden {/if}">
                 {if $option.form}
                 {$option.form nofilter}
@@ -43,9 +52,6 @@
                 </form>
                 {/if}
             </div>
-                </div>
-            </label>
-            
         </div>
         <div
           id="pay-with-{$option.id}-form"
