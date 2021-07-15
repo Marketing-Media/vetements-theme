@@ -25,7 +25,7 @@
                 data-module-name="{$option.module_name}" name="payment-option" type="radio" required
                 {if $selected_payment_option == $option.id || $is_free} checked {/if}>
 
-            <label class="card mb-0 cursor-pointer h-100"  for="{$option.id}">
+            <label class="card mb-0 cursor-pointer"  for="{$option.id}">
                 <div class="address__header card-header h5 text-center">
                     {$option.call_to_action_text}
                 </div>
