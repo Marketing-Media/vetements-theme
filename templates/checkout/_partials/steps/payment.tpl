@@ -30,7 +30,13 @@
                     {$option.call_to_action_text}
                 </div>
                 <div class="card-body address__body text-center">
-                    
+                    <div class="checkout-option__thumb mb-2">
+                        {if $option.logo}
+                            <img src="{$option.logo}" class="checkout-option__img" />
+                        {else}
+                            <img src="{$urls.img_url}payment/bankwire.svg" class="checkout-option__img" />
+                        {/if}
+                    </div>
                 </div>
             </label>
             <div id="pay-with-{$option.id}-form"
