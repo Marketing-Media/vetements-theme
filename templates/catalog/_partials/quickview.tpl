@@ -75,3 +75,10 @@
    </div>
  </div>
 </div>
+
+<script>
+//MM_ patch to load images when load first time
+setTimeout(function(){
+   prestashop.emit('updatedProductCombination', event);
+   }, 400);
+</script>
