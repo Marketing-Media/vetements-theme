@@ -34,7 +34,7 @@
                 <div class="swiper-slide">
                   <img
                     class="rounded img-fluid lazyload"
-                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='{$image.bySize.large_default.width}' height='{$image.bySize.large_default.height}' viewBox='0 0 1 1'%3E%3C/svg%3E"
+                    src="{$image.bySize.large_default.url}{*data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='{$image.bySize.large_default.width}' height='{$image.bySize.large_default.height}' viewBox='0 0 1 1'%3E%3C/svg%3E*}"
                     data-src="{$image.bySize.large_default.url}"
                     width="{$image.bySize.large_default.width}"
                     height="{$image.bySize.large_default.height}"
@@ -89,10 +89,10 @@
           {foreach from=$product.images item=image}
             <div class="product-thumbs__elem swiper-slide">
               <img
-                class="img-fluid rounded lazyload"
+                class="img-fluid {*rounded*} lazyload"
                 width="{$image.bySize.home_default.width}"
                 height="{$image.bySize.home_default.height}"
-                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='{$image.bySize.home_default.width}' height='{$image.bySize.home_default.height}' viewBox='0 0 1 1'%3E%3C/svg%3E"
+                src="{$image.bySize.home_default.url}{*data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='{$image.bySize.home_default.width}' height='{$image.bySize.home_default.height}' viewBox='0 0 1 1'%3E%3C/svg%3E*}"
                 data-src="{$image.bySize.home_default.url}"
                 {if !empty($image.legend)}
                   alt="{$image.legend}"
