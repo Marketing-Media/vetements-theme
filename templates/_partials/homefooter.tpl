@@ -30,7 +30,7 @@
            <li>
                <div>
                    <span class="ico"><img src="{$urls.img_url}SVG/icon1.svg" height="100px" alt=""></span>
-                   <h4 class="strong">{l s='FREE SHIPPING*' d='Shop.Theme.Homefooter'} </h4>
+                   <div class="strong">{l s='FREE SHIPPING*' d='Shop.Theme.Homefooter'} </div>
                    <span class="simple">{l s='For order over [1]60$[/1] [2](Quebec only)[/2]' sprintf=['[1]' => '<strong>','[/1]' => '</strong>','[2]' => '<span>','[/2]' => '</span>'] d='Shop.Theme.Homefooter'}  </span>
                </div>
            </li>
