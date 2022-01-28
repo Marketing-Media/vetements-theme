@@ -3,7 +3,7 @@
     <div class="container">
         <h3 class="subline">{l s="Popular Brands" d='Shop.Theme.Homefooter'}</h3>
         <ul class="grid_mm ">
-            <li><a href="{$link->getManufacturerLink(2)}"><img src="{$urls.img_url}brand1.png" alt=""></a></li>
+            <li><a href="{$link->getManufacturerLink(64)}"><img src="{$urls.img_url}brand1.png" alt=""></a></li>
             <li><a href="{$link->getManufacturerLink(53)}"><img src="{$urls.img_url}brand2.png" alt=""></a></li>
             <li><a href="{$link->getManufacturerLink(24)}"><img src="{$urls.img_url}brand3.png" alt=""></a></li>
             <li><a href="{$link->getManufacturerLink(25)}"><img src="{$urls.img_url}brand4.png" alt=""></a></li>
