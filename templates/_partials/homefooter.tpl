@@ -3,16 +3,16 @@
     <div class="container">
         <h3 class="subline">{l s="Popular Brands" d='Shop.Theme.Homefooter'}</h3>
         <ul class="grid_mm ">
-            <li><a href="{$link->getManufacturerLink(62)}"><img src="{$urls.img_url}brand1.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(53)}"><img src="{$urls.img_url}brand2.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(24)}"><img src="{$urls.img_url}brand3.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(25)}"><img src="{$urls.img_url}brand4.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(55)}"><img src="{$urls.img_url}brand5.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(60)}"><img src="{$urls.img_url}brand6.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(49)}"><img src="{$urls.img_url}brand7.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(45)}"><img src="{$urls.img_url}brand8.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(27)}"><img src="{$urls.img_url}brand9.png" alt=""></a></li>
-            <li><a href="{$link->getManufacturerLink(29)}"><img src="{$urls.img_url}brand10.png" alt=""></a></li>
+            <li><a href="{$link->getManufacturerLink(62)}"><img src="{$urls.img_url}brand1.png" alt="vetementspatrick" loading="lazy" ></a></li>
+            <li><a href="{$link->getManufacturerLink(113)}"><img src="{$urls.img_url}brand2.png" alt="vetementspatrick" loading="lazy" ></a></li>
+            <li><a href="{$link->getManufacturerLink(84)}"><img src="{$urls.img_url}brand3.png" alt="vetementspatrick" loading="lazy" ></a></li>
+            <li><a href="{$link->getManufacturerLink(85)}"><img src="{$urls.img_url}brand4.png" alt="vetementspatrick" loading="lazy" ></a></li>
+            <li><a href="{$link->getManufacturerLink(115)}"><img src="{$urls.img_url}brand5.png" alt="vetementspatrick" loading="lazy" ></a></li>
+            <li><a href="{$link->getManufacturerLink(120)}"><img src="{$urls.img_url}brand6.png" alt="vetementspatrick" loading="lazy" ></a></li>
+            <li><a href="{$link->getManufacturerLink(109)}"><img src="{$urls.img_url}brand7.png" alt="vetementspatrick" loading="lazy" ></a></li>
+            <li><a href="{$link->getManufacturerLink(105)}"><img src="{$urls.img_url}brand8.png" alt="vetementspatrick" loading="lazy" ></a></li>
+            <li><a href="{$link->getManufacturerLink(87)}"><img src="{$urls.img_url}brand9.png" alt="vetementspatrick" loading="lazy" ></a></li>
+            <li><a href="{$link->getManufacturerLink(89)}"><img src="{$urls.img_url}brand10.png" alt="vetementspatrick" loading="lazy" ></a></li>
 
         </ul>
         <div class="featured-products__footer mt-4 text-right">
