@@ -75,4 +75,4 @@
 {/block}
 
 {block name='hook_extra'}{/block}
-<meta property="twitter:image" content="https://vetementspatrick.com/img/vetementspatrickcom-logo-1622215039.jpg "/>
+<meta name="twitter:image" content="https://vetementspatrick.com/img/vetementspatrickcom-logo-1622215039.jpg "/>

@@ -45,4 +45,4 @@
   </script>
 {/if}
 
-<script src="https://kit.fontawesome.com/a865c76f9a.js" crossorigin="anonymous"></script>
+<script defer src="https://kit.fontawesome.com/a865c76f9a.js" crossorigin="anonymous" rel="preload" as="font"></script>
